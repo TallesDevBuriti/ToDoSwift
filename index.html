@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Plano de Estudos Swift</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        li {
+            background: #fff;
+            margin: 5px 0;
+            padding: 10px 15px;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+        }
+        input[type="checkbox"] {
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Checklist de Estudos Swift</h1>
+
+    <h2>🟢 1. Fundamentos da Linguagem (Básico)</h2>
+    <ul>
+        <li><input type="checkbox"> 1.1. Introdução ao Swift e ao Xcode</li>
+        <li><input type="checkbox"> 1.2. Tipos de dados básicos: Int, Double, String, Bool</li>
+        <li><input type="checkbox"> 1.3. Variáveis e constantes (var e let)</li>
+        <li><input type="checkbox"> 1.4. Operadores aritméticos, lógicos e relacionais</li>
+        <li><input type="checkbox"> 1.5. Interpolação e concatenação de strings</li>
+        <li><input type="checkbox"> 1.6. Comentários (// e /* */)</li>
+        <li><input type="checkbox"> 1.7. Coleções: Array, Set e Dictionary</li>
+        <li><input type="checkbox"> 1.8. Controle de fluxo: if, else, switch, guard</li>
+        <li><input type="checkbox"> 1.9. Loops: for-in, while, repeat-while</li>
+        <li><input type="checkbox"> 1.10. Optionals e desembrulhamento (if let, guard let, nil coalescing)</li>
+    </ul>
+
+    <h2>🟡 2. Estruturas de Código e Funções (Intermediário)</h2>
+    <ul>
+        <li><input type="checkbox"> 2.1. Funções e parâmetros (incluindo valores padrão)</li>
+        <li><input type="checkbox"> 2.2. Tuplas e múltiplos retornos</li>
+        <li>
+          <input type="checkbox"> 2.3. Closures (expressões e captura de variáveis)
+          <ul>
+              <li><input type="checkbox"> 2.3.1. Trailing closures</li>
+              <li><input type="checkbox"> 2.3.2. Closures como callbacks</li>
+              <li><input type="checkbox"> 2.3.3. Capturing lists e memory leaks</li>
+          </ul>
+        </li>
+        <li><input type="checkbox"> 2.4. Escopo e visibilidade de variáveis</li>
+        <li><input type="checkbox">
+          <input type="checkbox"> 2.5. Enums e switch avançado
+          <ul>
+              <li><input type="checkbox"> 2.5.1. Enums com valores associados</li>
+              <li><input type="checkbox"> 2.5.2. Enums recursivos</li>
+              <li><input type="checkbox"> 2.5.3. Switch com `@unknown default`</li>
+          </ul>
+        </li>
+        <li><input type="checkbox"> 2.6. Structs e propriedades armazenadas/computadas</li>
+        <li><input type="checkbox"> 2.7. Classes e herança</li>
+        <li><input type="checkbox"> 2.8. Inicializadores (init) e deinit</li>
+        <li><input type="checkbox"> 2.9. Propriedades e métodos de instância e classe</li>
+        <li><input type="checkbox"> 2.10. Protocolo e conformidade (protocol)</li>
+    </ul>
+
+    <h2>🟠 3. Recursos Avançados da Linguagem</h2>
+    <ul>
+        <li><input type="checkbox"> 3.1. Extensions e protocolos com métodos default</li>
+        <li>
+            <input type="checkbox"> 3.2. Generics
+            <ul>
+                <li><input type="checkbox"> 3.2.1. Generic functions e types</li>
+                <li><input type="checkbox"> 3.2.2. Constraints e where clauses</li>
+                <li><input type="checkbox"> 3.2.3. Associated types com protocol</li>
+            </ul>
+        </li>
+        <li><input type="checkbox"> 3.3. Protocol-Oriented Programming (POP)</li>
+        <li><input type="checkbox"> 3.4. Value vs Reference Types</li>
+        <li><input type="checkbox"> 3.5. Pattern Matching e Destructuring</li>
+        <li><input type="checkbox"> 3.6. Access Control (private, fileprivate, internal, public, open)</li>
+        <li><input type="checkbox"> 3.7. Typealias, Any, AnyObject, as?, as!, is</li>
+        <li><input type="checkbox"> 3.8. Nested Types e Funções</li>
+        <li>
+            <input type="checkbox"> 3.9. Error Handling: throw, try, catch, rethrows
+            <ul>
+                <li><input type="checkbox"> 3.9.1. Do-catch e erros personalizados</li>
+                <li><input type="checkbox"> 3.9.2. Propagação de erros com `throws`</li>
+                <li><input type="checkbox"> 3.9.3. `rethrows` e uso com funções de ordem superior</li>
+            </ul>
+        </li>
+        <li><input type="checkbox"> 3.10. Operator Overloading</li>
+    </ul>
+
+    <h2>🔵 4. Desenvolvimento com Swift (Avançado / iOS)</h2>
+    <ul>
+        <li><input type="checkbox"> 4.1. Foundation e tipos fundamentais (Date, URL, Data, etc.)</li>
+        <li><input type="checkbox"> 4.2. Trabalhando com arquivos e JSON (Codable, JSONDecoder)</li>
+        <li><input type="checkbox"> 4.3. GCD e concorrência com DispatchQueue</li>
+        <li><input type="checkbox"> 4.4. Concurrency moderna com async/await e Task</li>
+        <li><input type="checkbox"> 4.5. Memory Management: ARC, strong/weak/unowned</li>
+        <li><input type="checkbox"> 4.6. App lifecycle e ViewController lifecycle</li>
+        <li>
+            <input type="checkbox"> 4.7. SwiftUI (ou UIKit): views, bindings, state, navigation
+            <ul>
+                <li><input type="checkbox"> 4.7.1. State, Binding, Environment</li>
+                <li><input type="checkbox"> 4.7.2. NavigationStack vs NavigationView</li>
+                <li><input type="checkbox"> 4.7.3. ViewModifiers e custom views</li>
+            </ul>
+        </li>
+        <li><input type="checkbox"> 4.8. Combine framework (ou RxSwift)</li>
+        <li><input type="checkbox"> 4.9. Integração com REST APIs e networking</li>
+        <li><input type="checkbox"> 4.10. Testes com XCTest e Test Driven Development (TDD)</li>
+    		<li><input type="checkbox"> 4.11. Gerenciamento de dependências com CocoaPods e Carthage</li>
+    		<li><input type="checkbox"> 4.12. Notificações locais e push (UNUserNotificationCenter)</li>
+    		<li><input type="checkbox"> 4.13. App Extensions (WidgetKit, Share Extensions, etc.)</li>
+    		<li>
+            <input type="checkbox"> 4.14. Persistência com CoreData e UserDefaults
+            <ul>
+                <li><input type="checkbox"> 4.14.1. Modelos, relacionamentos e fetch requests</li>
+                <li><input type="checkbox"> 4.14.2. NSFetchedResultsController (UIKit)</li>
+                <li><input type="checkbox"> 4.14.3. Integração com SwiftUI usando @FetchRequest</li>
+            </ul>
+        </li>
+    		<li><input type="checkbox"> 4.15. Testes de UI com XCTest e XCUITest</li>
+    </ul>
+
+    <h2>🟣 5. Tópicos Extras e Boas Práticas</h2>
+    <ul>
+        <li>
+            <input type="checkbox"> 5.1. Design Patterns em Swift (MVC, MVVM, Singleton, etc.)
+            <ul>
+                <li><input type="checkbox"> 5.1.1. MVVM com SwiftUI</li>
+                <li><input type="checkbox"> 5.1.2. Coordinators com UIKit</li>
+                <li><input type="checkbox"> 5.1.3. Dependency Injection e Service Locator</li>
+            </ul>
+        </li>
+        <li><input type="checkbox"> 5.2. Modularização e Clean Code</li>
+        <li><input type="checkbox"> 5.3. Swift Package Manager (SPM)</li>
+        <li><input type="checkbox"> 5.4. Internationalization e Localization</li>
+        <li><input type="checkbox"> 5.5. Segurança: Keychain, Secure Enclave</li>
+        <li><input type="checkbox"> 5.6. Performance e profiling com Instruments</li>
+        <li><input type="checkbox"> 5.7. Documentação e uso de Markup</li>
+        <li>
+            <input type="checkbox"> 5.8. Integração contínua e deployment
+            <ul>
+                <li><input type="checkbox"> 5.8.1. Fastlane e automação</li>
+                <li><input type="checkbox"> 5.8.2. GitHub Actions ou Bitrise</li>
+                <li><input type="checkbox"> 5.8.3. TestFlight e distribuição</li>
+            </ul>
+        </li>
+        <li><input type="checkbox"> 5.9. Contribuindo com projetos open source em Swift</li>
+        <li><input type="checkbox"> 5.10. Atualizações do Swift e recursos experimentais</li>
+    		<li><input type="checkbox"> 5.11. Gerenciamento de versões e semver com Swift</li>
+    		<li><input type="checkbox"> 5.12. Integração com SwiftLint e ferramentas de análise estática</li>
+    		<li><input type="checkbox"> 5.13. Logging e monitoramento (OSLog, Firebase, etc.)</li>
+    		<li><input type="checkbox"> 5.14. Swift Charts e visualização de dados</li>
+    		<li><input type="checkbox"> 5.15. Acessibilidade (VoiceOver, Dynamic Type, etc.)</li>
+    </ul>
+	
+	<h2>🔴 6. Ecossistema Apple e Integrações</h2>
+	<ul>
+		<li>
+        <input type="checkbox"> 6.1. HealthKit, HomeKit, MapKit e ARKit
+        <ul>
+            <li><input type="checkbox"> 6.1.1. MapKit com anotação e rotas</li>
+            <li><input type="checkbox"> 6.1.2. ARKit básico com SceneKit</li>
+            <li><input type="checkbox"> 6.1.3. Leitura e escrita com HealthKit</li>
+        </ul>
+    </li>
+		<li><input type="checkbox"> 6.2. CloudKit e armazenamento iCloud</li>
+		<li><input type="checkbox"> 6.3. Sign in with Apple e autenticação biométrica</li>
+		<li><input type="checkbox"> 6.4. CarPlay, Apple Watch e integração com dispositivos</li>
+		<li><input type="checkbox"> 6.5. APIs específicas do macOS e multiplataforma (macOS, watchOS, tvOS)</li>
+	</ul>
+
+</body>
+<script>
+    const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+    const storageKey = 'swiftStudyChecklist';
+
+    // Carrega o estado salvo dos checkboxes
+    function loadCheckboxStates() {
+        const savedStates = JSON.parse(localStorage.getItem(storageKey)) || {};
+        checkboxes.forEach((checkbox, index) => {
+            checkbox.checked = savedStates[index] || false;
+        });
+    }
+
+    // Salva o estado dos checkboxes
+    function saveCheckboxStates() {
+        const states = {};
+        checkboxes.forEach((checkbox, index) => {
+            states[index] = checkbox.checked;
+        });
+        localStorage.setItem(storageKey, JSON.stringify(states));
+    }
+
+    // Listener para mudanças
+    checkboxes.forEach((checkbox) => {
+        checkbox.addEventListener('change', saveCheckboxStates);
+    });
+
+    // Carrega o estado ao iniciar
+    window.addEventListener('DOMContentLoaded', loadCheckboxStates);
+</script>
+
+</html>
